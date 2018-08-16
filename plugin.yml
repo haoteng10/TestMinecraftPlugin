@@ -1,4 +1,4 @@
-version: 1.1
+version: 1.2.2
 name: FirstPlugin
 main: com.hao.firstplugin.Main
 author: Hao
@@ -7,3 +7,6 @@ commands:
   hello:
     aliases: [hi]
     description: A command to say hello back and set full health.
+  trolltoggle:
+    aliases: [troll]
+    description: A command to troll players.
