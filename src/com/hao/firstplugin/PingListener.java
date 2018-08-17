@@ -37,7 +37,9 @@ public class PingListener implements Listener {
 		
 	}
 	
-	private final static int CENTER_PX = 154;
+	// Default 154. 114 for MOTD
+	
+	private final static int CENTER_PX = 114;
 	 
 	public static String sendCenteredMessage(String message){
 	        if(message == null || message.equals("")) return "";
