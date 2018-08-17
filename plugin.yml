@@ -1,4 +1,4 @@
-version: 1.3
+version: 1.4.1
 name: FirstPlugin
 main: com.hao.firstplugin.Main
 author: Hao
@@ -10,3 +10,6 @@ commands:
   trolltoggle:
     aliases: [troll]
     description: A command to troll players.
+  spawnstand:
+    aliases: []
+    description: A command that will spawn the stand.
