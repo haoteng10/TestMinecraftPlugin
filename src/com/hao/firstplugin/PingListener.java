@@ -22,7 +22,7 @@ public class PingListener implements Listener {
 		e.setMaxPlayers(20000);
 		
 		try {
-			e.setMotd(ChatColor.YELLOW + motd1 + "\n" + ChatColor.BLUE + motd2);
+			e.setMotd(motd1 + "\n" + motd2);
 		} catch (Exception e2) {
 			e.setMotd(ChatColor.RED + "Error! Please check the code again!");
 			System.out.println(ChatColor.YELLOW + motd1 + "\n" + ChatColor.BLUE + motd2);
