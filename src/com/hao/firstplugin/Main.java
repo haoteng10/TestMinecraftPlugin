@@ -15,6 +15,7 @@ public class Main extends JavaPlugin implements Listener {
 		System.out.println("First Plugin had worked!");
 		
 		Bukkit.getPluginManager().registerEvents(this,this);
+		Bukkit.getPluginManager().registerEvents(new PingListener(),this);
 		
 		getCommand("hello").setExecutor(new HelloCommand());
 		getCommand("trolltoggle").setExecutor(new TrollCommand());
