@@ -1,4 +1,4 @@
-version: 1.4.6
+version: 1.4.7.1
 name: FirstPlugin
 main: com.hao.firstplugin.Main
 author: Hao

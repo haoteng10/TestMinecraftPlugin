@@ -11,8 +11,9 @@ import net.md_5.bungee.api.ChatColor;
 
 public class PingListener implements Listener {
 	
-	private String motd1 = sendCenteredMessage("Development Server");
-	private String motd2 = sendCenteredMessage("PlutoMC Team");
+	
+	private String motd1 = sendCenteredMessage(ChatColor.AQUA + "Development " + ChatColor.GRAY + "Server");
+	private String motd2 = sendCenteredMessage(ChatColor.RED + "Pluto" + ChatColor.GREEN + ChatColor.BOLD+ "MC " + ChatColor.GOLD + "Team");
 	
 	@EventHandler
 	public void onPing(ServerListPingEvent e) {
